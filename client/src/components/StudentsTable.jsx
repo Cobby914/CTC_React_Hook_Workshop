@@ -39,10 +39,6 @@ function StudentsTable({ students }) {
               - Use students.map(...)
 
              ============================ */}
-
-          {// Example structure (remove after you implement the real one):
-
-          }
         </Tbody>
       </Table>
     </TableContainer>

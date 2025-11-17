@@ -11,28 +11,35 @@ Students will build a **React + Chakra UI** page that displays data from a **Pos
 
 ## Getting Started
 
-### 1. Backend
+### Quick Start (Recommended)
 
+From the root directory:
+
+```bash
+yarn install  # Installs dependencies for root, client, and server
+yarn start    # Starts both client and server concurrently
+```
+
+- Server runs at: `http://localhost:4000`
+- Frontend runs at: `http://localhost:5173`
+
+### Manual Setup (Alternative)
+
+If you prefer to run client and server separately:
+
+**Backend:**
 ```bash
 cd server
-yarn
-cp .env.example .env
+yarn install
 yarn dev
 ```
 
-Server runs at: `http://localhost:4000`
-
-### 2. Frontend
-
-Open a second terminal:
-
+**Frontend (in a separate terminal):**
 ```bash
 cd client
-yarn
+yarn install
 yarn dev
 ```
-
-Frontend runs at something like: `http://localhost:5173`
 
 ## Student Tasks
 
