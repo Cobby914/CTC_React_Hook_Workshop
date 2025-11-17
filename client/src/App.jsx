@@ -26,7 +26,7 @@ function App() {
   // Use useEffect to call fetchStudents() once when the component mounts.
  
   useEffect(() => {
-    // TODO 2: call fetchStudents() here
+
   }, [fetchStudents]);
 
   // ============================
