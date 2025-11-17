@@ -17,7 +17,6 @@ Students will build a **React + Chakra UI** page that displays data from a **Pos
 cd server
 yarn
 cp .env.example .env
-# Edit .env and paste your real Neon DATABASE_URL
 yarn dev
 ```
 
