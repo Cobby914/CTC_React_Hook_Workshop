@@ -9,6 +9,17 @@ import {
   TableContainer,
 } from '@chakra-ui/react';
 
+/**
+ * Props:
+ * - students: an array of student/member objects
+ *
+ * Each student has at least:
+ * - id
+ * - name
+ * - email
+ * - year_of_study
+ * - role
+ */
 function StudentsTable({ students }) {
   return (
     <TableContainer>
@@ -23,6 +34,19 @@ function StudentsTable({ students }) {
           </Tr>
         </Thead>
         <Tbody>
+          {/* ============================
+              TODO 5: Render table rows
+              - Use students.map(...)
+              - For each student, render a <Tr> with:
+                - <Td>{student.id}</Td>
+                - <Td>{student.name}</Td>
+                - <Td>{student.email}</Td>
+                - <Td>{student.year_of_study}</Td>
+                - <Td>{student.role}</Td>
+             ============================ */}
+
+          {/* Example structure (remove after you implement the real one):
+
           {students.map((student) => (
             <Tr key={student.id}>
               <Td>{student.id}</Td>
@@ -32,6 +56,8 @@ function StudentsTable({ students }) {
               <Td>{student.role}</Td>
             </Tr>
           ))}
+
+          */}
         </Tbody>
       </Table>
     </TableContainer>
